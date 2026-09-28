@@ -1,0 +1,22 @@
+# 密钥与环境（.env 含真实 API Key，严禁提交）
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# 前端
+node_modules/
+frontend/dist/
+
+# SQLite 数据（scripts/gen_*.py 固定 seed 可复现生成；Chinook/Spider 为可选公开数据集）
+data/
+
+# Docker 持久化数据
+docker-data/
+
+# 临时文件与日志
+backend/rag/temp/
+.tmp-*
+*.log
